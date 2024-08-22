@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="KURT ZILDJIAN SANTOS CITE-001.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Kurt Zildjian C. Santos - Projects</title>
+</head>
+<body>
+    <header>
+        <img src="https://scontent.fmnl31-1.fna.fbcdn.net/v/t39.30808-1/428615864_7577401792302847_3476067154159608753_n.jpg?stp=cp6_dst-jpg_s200x200&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeErlFSSeXy7rHNiZhaWHHiJf2vXtp5h9zB_a9e2nmH3MCPgn2M5f4XXzgzESEcS40ktuz-9n7CYHRnGKatFCc7C&_nc_ohc=HL-eK43_fIoQ7kNvgE20-i0&_nc_ht=scontent.fmnl31-1.fna&oh=00_AYDnk81LZzEQc8vjKon6ZpuPQ7fgsRFzbDNitxvYDSaCDg&oe=66CC5FC3" alt="my picture" width="400" height="400">
+        <h1>Kurt Zildjian C. Santos</h1>
+        <h2>A bonafide student from the Technological Institute of the Philippines - Manila</h2>
+        <p>BS Information Technology Sophomore</p>
+    </header>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Project 1: My Developer Profile</h3>
+            <p>CITE 001 Requirement.</p>
+            <br>
+
+            <h3>Project 2: Data Management with Graphs using Python </h3>
+            <p>CITE 003 Requirement</p>
+            <br>
+            <p>You could also check out my GitHub Repository below.</p>
+            <br>
+                <a class="github-button" href="https://github.com/porogami63/ideal-pancake">GitHub</a>
+        </div>
+    </section>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+
+        <div class = "personal">
+            <h2> Who am I? </h2>
+            <P>I am Kurt, as I have said in my introduction. I am currently a BSIT Sophomore. I am currently studying at the Technological Institute of the Philippines.</P>
+            <br>
+            <p>I am currently 20 years old and I live at Pasig City, Philippines. My Hobbies are playing competitive video games and playing the Bass guitar, I have served as the Sponsorships and Opportunities Deputy and Lorso Representative for Tempest Gaming Society, TIP Manila for A.Y. 
+                '23 - '24. I was also in their player roster for League of Legends, and competed in various tournaments with the roster, representing TIP. Currently, I have taken a step back from extra curricular activities to focus on my studies.
+
+            </p>
+            <br>
+
+            <h3>UPDATE!</h3>
+
+            <p> Hello, it's been a minute! I have learned so much from my time being a freshman. Now that I am a sophomore, I am done romanticizing everything with college life. The commute life is brutal and 4 hours of it everyday has been burning me out. The fact that as soon as classes end my first priority is getting home is a testament, that college has really made me introverted haha!
+                But it's been a thrill, meeting new friends and experiencing new stuff, I'm looking forward to more of everything!
+
+            </p>
+    
+
+
+
+        </div>
+        <div id="social-media-links">
+            <h1>Let's Keep in touch</h1>
+
+            <script> // i created afunction to generate my social media account links
+                function generateSocialMediaLinks() {
+                    const socialMediaLinks = [
+                        { name: "Facebook", url: "https://www.facebook.com/kurtzildjian.santos/" },
+                        { name: "Youtube", url: "https://www.youtube.com/channel/UCgqwsJPFbNp3vAsmn4QM-HA" },
+                        { name: "Instagram", url: "https://www.instagram.com/zild_63/" },
+                        { name: "Spotify", url: "https://open.spotify.com/user/31pwxuclksmvs36nyfbguaihqbba"},
+                        { name: "LinkedIn", url: "https://www.linkedin.com/in/kurt-santos-85b3b2248/"},
+                        
+                    ];
+                
+                    const socialMediaContainer = document.getElementById("social-media-links");
+                
+                    socialMediaLinks.forEach((platform) => {
+                        const link = document.createElement("a");
+                        link.href = platform.url;
+                        link.target ="_blank"; // this is so that it the function above could open new links in a new tab/window
+                        link.rel = "noopener noreferrer"; // numerous users in stackoverflow have led me to this article: https://stackoverflow.com/questions/50709625/link-with-target-blank-and-rel-noopener-noreferrer-still-vulnerable
+                        // basically it is recommended because i used link.target blank.... other users could replace the link with a malicious page instead of the intended page. i opted to use this so that my site would not get hijacked.
+                
+                        // Add an icon (you can use font icons, SVGs, or image URLs)
+                        const icon = document.createElement("i");
+                        icon.className = `fab fa-${platform.name.toLowerCase()}`; // u may have noticed that i used  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  
+                                      //as one of the many "addons" before i even started to work on my html codes, this is so that i could use the icons i needed to represent my social media links properly. 
+                        
+                        icon.style.fontSize = "85px"; // to change the icon size to desired value
+                        icon.style.color = "black"; // to change icon color to desired color ( i personally prefer neutral colors)
+
+                
+                        //append icons to link
+                        link.appendChild(icon);
+                        socialMediaContainer.appendChild(link);
+                    });
+                }
+                
+                // make the function to generate the social media links provided
+                generateSocialMediaLinks();
+                </script>
+        </div>
+
+
+
+        <div class="music">
+            <h3>Welcome to my corner</h3>
+            <P>This is my corner, I made this so I can share the various things I have a particular interest in. I like music, it helps me cope with the long hours that comes with commuting, These are the artists I listen to and would recommend as well.</P>
+                <br>
+                
+            <img src="https://cdn.vox-cdn.com/thumbor/u_TdMEBZ4UU57dc1IvO84tPmWI8=/0x1:1200x629/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19151747/njgvgrrbetklytcqfg9z.gif" alt="kanye" width="800" height="250">
+            <h4>Kanye West</h4>
+            <br>
+            <h5>whose legal name is Ye, was born on June 8, 1977, in Atlanta, Georgia, the United States.</h5>
+            <h5>He is an American-born producer, rapper, and fashion designer who used the success of his production work in the late 1990s and early 2000s to launch a successful, critically acclaimed solo music career</h5>
+            
+            <br>
+            <img src="https://media1.tenor.com/m/TOWkpkQisQUAAAAd/playboi-carti-carti.gif" alt="carti" wdith="800" height="250">
+            <h4>Playboi Carti</h4>
+            <h5>Oh boy, where do I even begin? Playboi Carti, my sweet little vamp. I've been vibing with you ever since I first heard your voice. The way you flow on a beat and hypnotize with your melodies. Your effortless style and that signature ad-lib, it's like music to my ears. I would do anything to catch you live in concert.</h5>
+
+
+
+        </div>
+
+        <div class="discography">
+            <h3>Featured Discography</h3>
+            <img src="https://i.pinimg.com/564x/91/98/c3/9198c383be8f68281baac6425a645e6f.jpg" alt="fantasy" width="400" height="400">
+
+                <br>
+                <br>
+                <h4>My Beautiful and Dark Twisted Fantasy</h4>
+                <br>
+                 <a class="spotify-button" href="https://open.spotify.com/album/20r762YmB5HeofjMCiPMLv?si=201e971f9b6042de">Spotify</a>
+
+                    <br>
+                    <br>
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Die_Lit_by_Playboi_Carti.jpg" alt="dielit" width="400" height="400">
+            <br>
+            <br>
+            <h4>Die LIt</h4>
+            <br>
+            <a class="spotify-button" href="https://open.spotify.com/album/7dAm8ShwJLFm9SaJ6Yc58O?si=EhO1qbglRpKmujuOW2wW-Q">Spotify</a>
+
+
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

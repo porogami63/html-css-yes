@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: #070707; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0c0c0c; 
+    color: white;
+    font-size: 23px;
+}
+
+h1, h2 {
+    font-size: 40px; 
+    margin-bottom: 10px;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; 
+}
+
+
+.project {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 30px;
+}
+
+.project p {
+    font-size: 27px;
+}
+
+.personal h2 { 
+    font-size: 30px;
+}
+.personal {
+
+
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto; 
+    text-align: left; 
+    color: black;
+    font-size: 27px;
+}
+
+.social-media-links { 
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto; 
+    text-align: left; 
+    
+
+
+
+}
+
+.music {
+    background-color : orange;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto; 
+    text-align:center; 
+    color: black;
+}
+
+
+.discography {
+    background-color : orange;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto; 
+    text-align: center; 
+    color: black;
+}
+
+.music p{
+    text-align: justify;
+}
+.music h3, .discography h3 {
+    font-size: 32px; 
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.music h5 {
+    font-size: 26px; 
+    font-weight:lighter;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.music h4, .discography h4 {
+    font-size: 32px; 
+    margin-bottom: 10px;
+}
+
+.music img, .discography img {
+    max-width: 50%;
+    height: auto;
+}
+
+.music p, .discography p {
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+
+li {
+    font-size: 28px; 
+}
+
+
+
+a {
+    color: #007acc; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+a.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a.github-button:hover {
+    background-color: #005b9f;
+}
+
+
+a.spotify-button {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #4CAF50; 
+    color: white; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a.spotify-button:hover {
+    background-color: #45a049; 
+}
+
+
